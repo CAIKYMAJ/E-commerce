@@ -24,7 +24,7 @@ const Arrivals = () => {
 
       {/* Coleções */}
       <div>
-        <div>
+        <div className="flex justify-center">
           <u className="no-underline list-none flex gap-10">
             <li className="text-sm text-gray-600">Todos Catálogos</li>
             <li className="text-sm text-gray-600">Sofá</li>
@@ -32,10 +32,8 @@ const Arrivals = () => {
             <li className="text-sm text-gray-600">Lustres</li>
             <li className="text-sm text-gray-600">Cadeiras</li>
             <li className="text-sm text-gray-600">Portas</li>
-            <li className="text-sm text-gray-600">Portas</li>
-            <li className="text-sm text-gray-600">Portas</li>
-            <li className="text-sm text-gray-600">Portas</li>
-            <li className="text-sm text-gray-600">Portas</li>
+            <li className="text-sm text-gray-600">Acessórios</li>
+            <li className="text-sm text-gray-600">Camas</li>
           </u>
         </div>
         <Separator className="mt-3 mb-10" />

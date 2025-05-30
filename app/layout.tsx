@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Game Store",
+  title: "Buy Store",
   description: "A maior loja de e-commerce gamer do Brasil.",
 };
 

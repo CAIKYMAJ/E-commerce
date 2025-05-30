@@ -4,7 +4,7 @@ import React from "react";
 
 const Categorias = () => {
   return (
-    <div>
+    <div className="mb-32">
       <div className="flex flex-col justify-center items-center mt-10 mb-14">
         <Armchair className="text-blue-500 bg-white rounded-full w-12 h-10 p-2 shadow-md mb-5" />
         <h1 className="font-bold text-3xl">Categorias</h1>

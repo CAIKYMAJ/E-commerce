@@ -1,4 +1,5 @@
 import { ShoppingCart } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -6,7 +7,15 @@ const Header = () => {
   return (
     <div className="bg-white p-5">
       <div className="flex justify-between items-center mx-20">
-        Logo
+        <Link href="/">
+          <Image
+            src="/image/logoBuy.png"
+            alt="Imagem"
+            width={80}
+            height={80}
+            className="relative z-10"
+          />
+        </Link>
         <div>
           <u className="flex list-none gap-5 no-underline">
             <li className="hover:bg-blue-500 hover:text-white p-3 rounded-lg">
@@ -15,17 +24,17 @@ const Header = () => {
               </Link>
             </li>
             <li className="hover:bg-blue-500 hover:text-white p-3 rounded-lg">
-              <Link href="/" className="text-xs">
+              <Link href="/catalogo" className="text-xs">
                 Catálogo
               </Link>
             </li>
             <li className="hover:bg-blue-500 hover:text-white p-3 rounded-lg">
-              <Link href="/" className="text-xs">
+              <Link href="/quemsou" className="text-xs">
                 Quem Somos
               </Link>
             </li>
             <li className="hover:bg-blue-500 hover:text-white p-3 rounded-lg">
-              <Link href="/" className="text-xs">
+              <Link href="/contato" className="text-xs">
                 Contato
               </Link>
             </li>
